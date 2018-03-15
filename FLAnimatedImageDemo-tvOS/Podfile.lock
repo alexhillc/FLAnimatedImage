@@ -1,14 +1,16 @@
 PODS:
-  - FLAnimatedImage (1.0.10)
+  - FLAnimatedImage (1.0.14)
 
 DEPENDENCIES:
   - FLAnimatedImage (from `../`)
 
 EXTERNAL SOURCES:
   FLAnimatedImage:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  FLAnimatedImage: d843599c5bbbe8cf92644e2391ec0d9e72ce4563
+  FLAnimatedImage: 95d49aa08f414f2a77c351319bd8b73f0bb24a0d
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 84a78420cb44893d3c041d04acf599ad077966cc
+
+COCOAPODS: 1.4.0

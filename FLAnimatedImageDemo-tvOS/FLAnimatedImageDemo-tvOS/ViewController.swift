@@ -23,8 +23,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    override func viewWillAppear(animated: Bool) {
-        let image = FLAnimatedImage(animatedGIFData: NSData(contentsOfURL: NSBundle.mainBundle().URLForResource("rock", withExtension: "gif")!))
+    override func viewWillAppear(_ animated: Bool) {
+        let image = FLAnimatedImage(animatedGIFData: try? Data(contentsOf: Bundle.main.url(forResource: "rock", withExtension: "gif")!))
         animatedImageView.animatedImage = image
     }
 

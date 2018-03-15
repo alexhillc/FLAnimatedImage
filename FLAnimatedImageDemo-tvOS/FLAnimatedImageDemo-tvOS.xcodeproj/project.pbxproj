@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7751BF2F6B4C4A408AFA1E45 /* Pods_FLAnimatedImageDemo_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2141940F67C496C39917979F /* Pods_FLAnimatedImageDemo_tvOS.framework */; };
 		78699FA31C6709670044C9E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78699FA21C6709670044C9E9 /* AppDelegate.swift */; };
 		78699FA51C6709670044C9E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78699FA41C6709670044C9E9 /* ViewController.swift */; };
 		78699FA81C6709670044C9E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78699FA61C6709670044C9E9 /* Main.storyboard */; };
 		78699FAA1C6709670044C9E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78699FA91C6709670044C9E9 /* Assets.xcassets */; };
 		78699FB41C670BFE0044C9E9 /* rock.gif in Resources */ = {isa = PBXBuildFile; fileRef = 78699FB31C670BFE0044C9E9 /* rock.gif */; };
+		8E7EC02A23CB2084ADF0FCE1 /* Pods_FLAnimatedImageDemo_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59B808AAA8CE684D1864A75 /* Pods_FLAnimatedImageDemo_tvOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2141940F67C496C39917979F /* Pods_FLAnimatedImageDemo_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLAnimatedImageDemo_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3984B5B7EAEF0CBD9905E97D /* Pods-FLAnimatedImageDemo-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLAnimatedImageDemo-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLAnimatedImageDemo-tvOS/Pods-FLAnimatedImageDemo-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		5AE8434D0435B8199D053C9B /* Pods-FLAnimatedImageDemo-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLAnimatedImageDemo-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLAnimatedImageDemo-tvOS/Pods-FLAnimatedImageDemo-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		60EF8E5BABCAEA85B4637A8B /* Pods-FLAnimatedImageDemo-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLAnimatedImageDemo-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLAnimatedImageDemo-tvOS/Pods-FLAnimatedImageDemo-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		78699F9F1C6709670044C9E9 /* FLAnimatedImageDemo-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FLAnimatedImageDemo-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78699FA21C6709670044C9E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78699FA41C6709670044C9E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +25,7 @@
 		78699FA91C6709670044C9E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78699FAB1C6709670044C9E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78699FB31C670BFE0044C9E9 /* rock.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = rock.gif; path = "../../FLAnimatedImageDemo/test-gifs/rock.gif"; sourceTree = "<group>"; };
-		BD68D1D9E57F8DD294B32947 /* Pods-FLAnimatedImageDemo-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLAnimatedImageDemo-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLAnimatedImageDemo-tvOS/Pods-FLAnimatedImageDemo-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B59B808AAA8CE684D1864A75 /* Pods_FLAnimatedImageDemo_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLAnimatedImageDemo_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,20 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7751BF2F6B4C4A408AFA1E45 /* Pods_FLAnimatedImageDemo_tvOS.framework in Frameworks */,
+				8E7EC02A23CB2084ADF0FCE1 /* Pods_FLAnimatedImageDemo_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A27F1FF3DDC3CCE7D326D75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B59B808AAA8CE684D1864A75 /* Pods_FLAnimatedImageDemo_tvOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		78699F961C6709670044C9E9 = {
 			isa = PBXGroup;
 			children = (
 				78699FA11C6709670044C9E9 /* FLAnimatedImageDemo-tvOS */,
 				78699FA01C6709670044C9E9 /* Products */,
-				F34EBC2FE0C89F052274326B /* Pods */,
-				8A9C62D39B5FE2CFB6B8325F /* Frameworks */,
+				8479AAC038AF8793B466190E /* Pods */,
+				2A27F1FF3DDC3CCE7D326D75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,19 +79,11 @@
 			path = "FLAnimatedImageDemo-tvOS";
 			sourceTree = "<group>";
 		};
-		8A9C62D39B5FE2CFB6B8325F /* Frameworks */ = {
+		8479AAC038AF8793B466190E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2141940F67C496C39917979F /* Pods_FLAnimatedImageDemo_tvOS.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F34EBC2FE0C89F052274326B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BD68D1D9E57F8DD294B32947 /* Pods-FLAnimatedImageDemo-tvOS.debug.xcconfig */,
-				3984B5B7EAEF0CBD9905E97D /* Pods-FLAnimatedImageDemo-tvOS.release.xcconfig */,
+				5AE8434D0435B8199D053C9B /* Pods-FLAnimatedImageDemo-tvOS.debug.xcconfig */,
+				60EF8E5BABCAEA85B4637A8B /* Pods-FLAnimatedImageDemo-tvOS.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -95,12 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78699FAE1C6709670044C9E9 /* Build configuration list for PBXNativeTarget "FLAnimatedImageDemo-tvOS" */;
 			buildPhases = (
-				9959743C50F957727DE92BE6 /* Check Pods Manifest.lock */,
+				DB3DF7B3313008FB6D829A1F /* [CP] Check Pods Manifest.lock */,
 				78699F9B1C6709670044C9E9 /* Sources */,
 				78699F9C1C6709670044C9E9 /* Frameworks */,
 				78699F9D1C6709670044C9E9 /* Resources */,
-				FE3CBF7BDA1C6D04CF7F6F76 /* Embed Pods Frameworks */,
-				1F956022FE8B58AF39ADD245 /* Copy Pods Resources */,
+				464473BB1A7B1C031AB92E26 /* [CP] Embed Pods Frameworks */,
+				09878F7769A588F5F7072A5A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +123,7 @@
 				TargetAttributes = {
 					78699F9E1C6709670044C9E9 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0920;
 					};
 				};
 			};
@@ -158,14 +159,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1F956022FE8B58AF39ADD245 /* Copy Pods Resources */ = {
+		09878F7769A588F5F7072A5A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,34 +174,40 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLAnimatedImageDemo-tvOS/Pods-FLAnimatedImageDemo-tvOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9959743C50F957727DE92BE6 /* Check Pods Manifest.lock */ = {
+		464473BB1A7B1C031AB92E26 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FLAnimatedImageDemo-tvOS/Pods-FLAnimatedImageDemo-tvOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FE3CBF7BDA1C6D04CF7F6F76 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLAnimatedImageDemo-tvOS/Pods-FLAnimatedImageDemo-tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB3DF7B3313008FB6D829A1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FLAnimatedImageDemo-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -312,7 +319,7 @@
 		};
 		78699FAF1C6709670044C9E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD68D1D9E57F8DD294B32947 /* Pods-FLAnimatedImageDemo-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 5AE8434D0435B8199D053C9B /* Pods-FLAnimatedImageDemo-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -320,12 +327,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.flipboard.FLAnimatedImageDemo-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		78699FB01C6709670044C9E9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3984B5B7EAEF0CBD9905E97D /* Pods-FLAnimatedImageDemo-tvOS.release.xcconfig */;
+			baseConfigurationReference = 60EF8E5BABCAEA85B4637A8B /* Pods-FLAnimatedImageDemo-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -333,6 +342,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.flipboard.FLAnimatedImageDemo-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
