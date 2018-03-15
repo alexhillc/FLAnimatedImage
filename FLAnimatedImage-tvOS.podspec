@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = "FLAnimatedImage-tvOS"
-  spec.version          = "1.0.14"
+  spec.version          = "1.0.16"
   spec.summary          = "Performant animated GIF engine for iOS and tvOS"
   spec.description      = <<-DESC
                         Fork of FLAnimatedImage (https://github.com/FlipBoard/FLAnimatedImage) that supports tvOS.
@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   spec.social_media_url       = "https://twitter.com/raphaelschaad"
   spec.ios.deployment_target  = "6.0"
   spec.tvos.deployment_target = "9.0"
-  spec.source                 = { :git => "https://github.com/alexhillc/FLAnimatedImage.git", :tag => "1.0.14" }
+  spec.source                 = { :git => "https://github.com/alexhillc/FLAnimatedImage.git", :tag => "1.0.16" }
   spec.source_files           = "FLAnimatedImage/**/*.{h,m}"
   spec.frameworks             = "QuartzCore", "ImageIO", "MobileCoreServices", "CoreGraphics"
   spec.requires_arc           = true
